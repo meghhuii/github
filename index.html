@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="icon" type="image/x-icon"
+        href="data:image/png;base64,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">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Amatic+SC&family=Caveat&family=Noto+Sans:wght@500&family=Roboto:wght@100&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container" id="container">
+        <nav class="navbar">
+            <img class="logo" src="./images/1.jpg" alt="image">
+            <ul>
+                <li class="listitem"><a class="link" href="#container">HOME</a></li>
+                <li class="listitem"><a class="link" href="#about">ABOUT</a></li>
+                <li class="listitem"><a class="link" href="#skills">SKILL</a></li>
+                <li class="listitem"><a class="link" href="#contact">CONTACT</a></li>
+            </ul>
+
+        </nav>
+
+        <section id="home">
+            <div class="title">
+                <h1 class="h1">I'm Aarin <span id="lastname"> Nitan</span></h1>
+                <p class="p">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development. </p>
+                <a class="download"
+                    href="https://drive.google.com/file/d/1gC7sHsbTN_MNWToHliVQDoQ2sh0tlL7T/view?usp=sharing"
+                    target="_blank">DOWNLOAD CV</a>
+            </div>
+            <div class="images">
+                <img id="shape" src="./images/4-removebg-preview.png" alt="shape">
+                <img id="girl" src="./images/3-removebg-preview.png" alt="girl">
+            </div>
+        </section>
+        <div id="about">
+            <div class="heading">
+                <h2>ABOUT ME</h2>
+                <span>Introduction</span>
+            </div>
+            <div class="about-content">
+                <div class="about-img"><img src="./images/2.jpg" alt="img">
+                </div>
+
+
+            <div class="about-details">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi exercitationem ea enim nemo tempora
+                    ullam odio! Aspernatur officia, molestias, consequuntur, quasi iste quaerat incidunt doloremque
+                    libero quos ipsam odio dolor!</p>
+                <div class="Information">
+                    <div class="info-box">
+                        <i class="fa-solid fa-user"></i></i>
+                        <span>Aarin Nitan</span>
+                    </div>
+
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>6567788994</span>
+                    </div>
+
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>aarinnitan@gmail.com</span>
+                    </div>
+
+                    <div class="info-box">
+                        <i class="fa-brands fa-github"></i>
+                        <span>aarinnitan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="skills">
+        <div class="heading">
+        <h2>Skills</h2>
+        <span>My skills</span>
+    </div>
+    <div class="skill-content">
+        <!-- progress -->
+        <div class="progress-bar">
+            <div class="bar-container">
+                <h3>HTML</h3>
+                <span>95%</span>
+                <div class="base-bar"></div>
+                <div class="base-bar html-bar"></div>
+            </div>
+            <div class="bar-container">
+                <h3>CSS</h3>
+                <span>88%</span>
+                <div class="base-bar"></div>
+                <div class="base-bar css-bar"></div>
+            </div>
+            <div class="bar-container">
+                <h3>REACT</h3>
+                <span>89%</span>
+                <div class="base-bar"></div>
+                <div class="base-bar react-bar"></div>
+            </div>
+            <div class="bar-container">
+                <h3>JS</h3>
+                <span>85%</span>
+                <div class="base-bar"></div>
+                <div class="base-bar  js-bar"></div>
+            </div>
+        </div>
+        <!-- image -->
+        <div class="skill img">
+            <img src="./images/5.jpg" alt="image">
+        </div>
+    </div>
+    
+    </section>
+    <section id="contact">
+        <div class="heading">
+            <h2>Contacts</h2>
+            <span>My Contacts</span>
+        </div>
+        <div class="icon-set">
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+            </div>
+        
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-github"></i>   
+                </a>
+                
+            </div>
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>   
+                </a>
+                
+            </div>
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>   
+                </a>
+                
+            </div>
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>  
+                </a>
+                
+            </div>
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>   
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+    <p style="text-align: center;font-weight: bold;"> &copy;My portfolio Design 2023,
+        All Rights Reserved &reg; Aarin Nitan</p>
+    <div class="up-arrow">
+        <a href="#container"><i class="fa-solid fa-arrow-up fa-2x"></i>
+        </a>
+    </div>
+</footer>
+    </div>
+</body>
+
+</html>
